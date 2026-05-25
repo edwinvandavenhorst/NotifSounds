@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <!-- ─────────────────────────────────────────────────────────────────
+         LOCAL DEVELOPMENT  (no Developer account needed)
+         Sandbox is OFF — app runs without restrictions.
+         ───────────────────────────────────────────────────────────────── -->
+    <key>com.apple.security.app-sandbox</key>
+    <false/>
+
+
+    <!-- ─────────────────────────────────────────────────────────────────
+         BEFORE APP STORE SUBMISSION  (requires enrolled Developer account)
+
+         1. Change app-sandbox above to <true/>
+         2. Uncomment the block below so the sandbox allows AppleScript
+            to call System Events (needed for get/set alert volume).
+         3. Test locally with sandbox ON to catch any remaining issues.
+         ───────────────────────────────────────────────────────────────── -->
+
+    <!--
+    <key>com.apple.security.automation.apple-events</key>
+    <dict>
+        <key>com.apple.systemevents</key>
+        <true/>
+    </dict>
+    -->
+
+</dict>
+</plist>

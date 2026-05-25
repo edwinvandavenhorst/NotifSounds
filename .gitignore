@@ -1,0 +1,16 @@
+# Compiled app bundle — built locally by build.sh
+build/
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Swift build artefacts
+*.o
+*.d
+
+# Xcode (for when you migrate to Xcode for App Store submission)
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+xcuserdata/
