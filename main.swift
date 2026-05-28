@@ -248,7 +248,7 @@ final class AboutWindowController: NSWindowController, NSWindowDelegate {
 
         // Copyright
         let year = Calendar.current.component(.year, from: Date())
-        let cpLabel = fixed("© \(year) Edwin van Davenhorst", size: 11, bold: false,
+        let cpLabel = fixed("© \(year) Ed Explore", size: 11, bold: false,
                             color: NSColor(white: 0.38, alpha: 1))
 
         let stack = NSStackView(views: [icon, nameLabel, verLabel, linksRow, cpLabel])
